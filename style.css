@@ -5,8 +5,6 @@
     font-family: 'Plus Jakarta Sans';
 }
 body{
-    min-height: 100vh;
-    background: hsl(210, 60%, 98%);
     font-size: 14px;
     font-weight: 100;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -14,6 +12,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.container{
+    height: 100%;
 }
 p{
     font-size: 16px;

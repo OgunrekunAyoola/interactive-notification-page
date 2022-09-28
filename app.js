@@ -12,7 +12,7 @@ function removeDots(elem){
 function manageCount(count){
     countSpan.textContent = count;
     if(count<=1){
-        plural.style.display = "none";  //removes the 's' from 'notifications'
+        plural.style.display = "hidden";  //removes the 's' from 'notifications'
     }
 }
 
