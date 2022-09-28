@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+}
+body{
+    min-height: 100vh;
+    background: hsl(210, 60%, 98%);
+    font-size: 14px;
+    font-weight: 100;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 16px;
+}
+.head{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.head h3{
+    margin-left: 20px;
+}
+.mark-all-read{
+    margin-left: auto;
+    margin-right: 30px;
+    background: transparent;
+    border: none;
+}
+button:hover{
+    color: hsl(219, 85%, 26%);
+}
+img{
+    margin: 0px 10px 0px 10px;
+}
+.count{
+    color: white;
+    background-color: hsl(219, 85%, 26%);
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+a{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 0px 0px 20px 10px ;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-decoration: none;
+    color:hsl(219, 12%, 42%);
+}
+a.unread{
+    align-items: center;
+    height: 15vh;
+    background-color: hsl(210, 60%, 98%);
+    margin: 10px 10px 10px 10px;
+    border-radius: 7px 7px 7px 7px;
+}
+strong{
+    color: black;
+}
+
+img{
+    height: 30px;
+}
+.time{
+    color: hsl(219, 14%, 63%);
+}
+span{
+    color: hsl(219, 85%, 26%) ;
+    font-weight: 900;
+}
+.dot{
+    color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    margin-left: .1rem;
+}
+p span :hover{
+    color: hsl(219, 85%, 26%);
+}
+.number3{
+    margin-left: 5px;
+    color: white;
+    padding: 2px 8px 2px 8px;
+    border-radius: 7px;
+    background-color: hsl(219, 85%, 26%) ;
+}
+.inner{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid  hsl(205, 33%, 90%);
+}
+.inner :hover{
+    border:none;
+    background-color: hsl(219, 14%, 63%) ;
+}
+.inner p{
+    margin: 10px 30px 10px 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .container{
+        width: 50%;
+    }
+}
